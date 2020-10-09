@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "Anglina Bhambra"
-  avatar           : "/assets/images/Anglina_photo.jpeg"
+  avatar           : "/images/Anglina_photo.jpeg"  #"/assets/images/Anglina_photo.jpeg"
   bio              : "I am an **amazing** person."
   location         : "Somewhere"
   email            :
