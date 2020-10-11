@@ -94,8 +94,8 @@ analytics:
 # Site Author
 author:
   name             : "Anglina Bhambra"
-  avatar           : "/assets/images/Anglina_photo.jpeg"
-  bio              : "I am an **amazing** person."
+  avatar           : "/images/Anglina_photo.jpeg"  #"/assets/images/Anglina_photo.jpeg"
+  bio              : "It is hard to fail, but it is worse never to have tried to succeed."
   location         : "Somewhere"
   email            :
   links:
