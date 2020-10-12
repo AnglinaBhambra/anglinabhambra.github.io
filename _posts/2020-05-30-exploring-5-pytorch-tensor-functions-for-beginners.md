@@ -21,11 +21,13 @@ The main difference between PyTorch and NumPy is that unlike PyTorch tensors, Nu
 
 To learn more about PyTorch tensors, I’ve included links below to the documentation and my course notebook.
 
-[__My Jovian Notebook - Tensor Operations__](https://jovian.ml/anglinabhambra/01-tensor-operations)
+> [__My Jovian Notebook - Tensor Operations__](https://jovian.ml/anglinabhambra/01-tensor-operations)
+>
+>[__torch.Tensor - PyTorch 1.6.0 documentation__](https://pytorch.org/docs/stable/tensors.html)
 
-[__torch.Tensor - PyTorch 1.6.0 documentation__](https://pytorch.org/docs/stable/tensors.html)
-
-ADD PAGE SEPARATOR
+</br >
+</br >
+</br >
 
 # PyTorch Tensor Functions
 If you’re also using PyTorch, or thinking about using it, I hope that this post encourages you to read through the documentation (linked above).
@@ -91,6 +93,20 @@ The torch.min() function returns the minimum value out of all the elements in th
 
 <iframe src="https://jovian.ml/embed?url=https://jovian.ml/anglinabhambra/01-tensor-operations/v/26&cellId=35" title="Jovian Viewer" height="254" width="800" frameborder="0" scrolling="auto"></iframe>
 
+In this example, we can see that without including any of the other parameters, the torch.min() function returns the the smallest element out of all of the elements in tensor x.
 
+<iframe src="https://jovian.ml/embed?url=https://jovian.ml/anglinabhambra/01-tensor-operations/v/26&cellId=37" title="Jovian Viewer" height="608" width="800" frameborder="0" scrolling="auto"></iframe>
 
+As explained in the PyTorch documentation, if keepdim=True, the output tensor will be of the same size as input except in the dimension dim where they are of size 1. Otherwise, dim is squeezed (see above) resulting in the output tensor having 1 fewer dimension than the input. </br >
+This example shows that the output is a ___namedtuple___ __(values, indices)__. </br >
+__values__: the minimum value of each row of the input tensor in the given dimension dim. </br >
+__indices__: the index location of each minimum value found (argmin).
+</br >
+</br >
+</br >
+# Final Remarks
 
+It’s worth mentioning here that we were also asked to explore ways in which these functions wouldn’t work, which is a great learning technique. I have done this in my notebook (linked in the intro and [here](https://jovian.ml/anglinabhambra/01-tensor-operations)). </br >
+One thing that could improve this post would be to include when these functions would be most useful.
+
+A big Thank You to Aakash and the Jovian.ml team. I would highly recommend following along if you can. To do so, use the Jovian.ml link or simply watch the first video linked [here](https://www.youtube.com/watch?v=vo_fUOk-IKk).
