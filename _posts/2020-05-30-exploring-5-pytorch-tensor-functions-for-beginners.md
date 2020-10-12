@@ -1,19 +1,14 @@
 ---
 title: Exploring 5 PyTorch Tensor Functions for Beginners
 header:
-    overlay_image:
-        - /images/andrew-neel-course-unsplash.jpg
-    overlay_filler:
-        - 0.5
-    caption:
-        - Photo by [**Andrew Neel on Unsplash**](https://unsplash.com/@andrewtneel)
-classes:
-    - wide
+    overlay_image: /images/andrew-neel-course-unsplash.jpg
+    overlay_filler: 0.5
+    caption: Photo by [**Andrew Neel on Unsplash**](https://unsplash.com/@andrewtneel)
+classes: wide
 tags:
     - PyTorch
     - Jovian
-excerpt:
-    - This post is written to allow me to share what I am learning during the 6 week course - Deep Learning with PyTorch Zero to GANs, using Jovian.ml.
+excerpt: This post is written to allow me to share what I am learning during the 6 week course - Deep Learning with PyTorch Zero to GANs, using Jovian.ml.
 ---
 
 *This post is written to allow me to share what I am learning during the 6 week course - Deep Learning with PyTorch: Zero to GANs, using Jovian.ml.*
