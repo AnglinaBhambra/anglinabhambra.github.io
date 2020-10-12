@@ -9,7 +9,6 @@ categories:
 
 *This post is written to allow me to share what I am learning during the 6 week course - Deep Learning with PyTorch: Zero to GANs, using Jovian.ml.*
 
-INSERT IMAGE HERE
 
 # Introduction
 
@@ -25,9 +24,6 @@ To learn more about PyTorch tensors, I’ve included links below to the document
 >
 >[__torch.Tensor - PyTorch 1.6.0 documentation__](https://pytorch.org/docs/stable/tensors.html)
 
-</br >
-</br >
-</br >
 
 # PyTorch Tensor Functions
 If you’re also using PyTorch, or thinking about using it, I hope that this post encourages you to read through the documentation (linked above).
@@ -50,12 +46,12 @@ The torch.squeeze() function returns a tensor with all the dimensions of input o
 
 <iframe src="https://jovian.ml/embed?url=https://jovian.ml/anglinabhambra/01-tensor-operations/v/26&cellId=11" title="Jovian Viewer" height="800" width="800" frameborder="0" scrolling="auto"></iframe>
 
-Here we have created a tensor, x, with dimensions (4 x 3 x 1 x 4 x 1) filled with random elements. </br >
+Here we have created a tensor, x, with dimensions (4 x 3 x 1 x 4 x 1) filled with random elements.  
 We can see that the torch.squeeze() function has removed all dimensions that have a size of 1, as y.size() shows that tensor y has dimensions (4 x 3 x 4).
 
 <iframe src="https://jovian.ml/embed?url=https://jovian.ml/anglinabhambra/01-tensor-operations/v/26&cellId=13" title="Jovian Viewer" height="410" width="800" frameborder="0" scrolling="auto"></iframe>
 
-In the previous example, the torch.squeeze() function’s dim value is set to None (dim=None) as this is the default. This meant that all dimensions of size 1 was removed. </br >
+In the previous example, the torch.squeeze() function’s dim value is set to None (dim=None) as this is the default. This meant that all dimensions of size 1 was removed.  
 In this example, y.size() is the same as x.size(), as we set dim to 0. The ‘0’ (in dim=0) is referring to the ‘3’ (in x.size() # torch.Size(3, 1, 2)). As this is a 3, and not a 1, the tensor remains the same. However is we set dim=1, then y.size() would be torch.Size(3, 2).
 
 ### torch.round_()
