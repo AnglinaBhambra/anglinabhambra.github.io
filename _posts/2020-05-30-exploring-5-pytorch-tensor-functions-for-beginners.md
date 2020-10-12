@@ -62,7 +62,7 @@ In this example, y.size() is the same as x.size(), as we set dim to 0. The ‘0�
 
 `torch.round_`(input) → Tensor
 
-The torch.round_() function returns the same tensor with each of the elements of the input rounded to the closest integer, as the underscore denotes __in place__. </br >
+The torch.round_() function returns the same tensor with each of the elements of the input rounded to the closest integer, as the underscore denotes __in place__.
 The torch.round() function would otherwise return a new tensor with each of the elements of the input rounded to the closest integer.
 
 <iframe src="https://jovian.ml/embed?url=https://jovian.ml/anglinabhambra/01-tensor-operations/v/26&cellId=19" title="Jovian Viewer" height="300" width="800" frameborder="0" scrolling="auto"></iframe>
@@ -71,7 +71,7 @@ In this example we can see that the output is the same tensor, where all of the 
 
 <iframe src="https://jovian.ml/embed?url=https://jovian.ml/anglinabhambra/01-tensor-operations/v/26&cellId=21" title="Jovian Viewer" height="255" width="800" frameborder="0" scrolling="auto"></iframe>
 
-Here we have created a tensor, x, to have 4 floating numbers. PyTorch knows that if one of the values is a float, then the rest of the elements will also be floating numbers. </br >
+Here we have created a tensor, x, to have 4 floating numbers. PyTorch knows that if one of the values is a float, then the rest of the elements will also be floating numbers.  
 We can see that the elements have been rounded to the closest integer, and that the data type of all of the elements are floats.
 
 ### torch.neg()
@@ -88,7 +88,7 @@ Here we can see that the elements in the new tensor, y, are the same as -1 multi
 
 `torch.min`(input, dim, keepdim=False) → Tensor
 
-The torch.min() function returns the minimum value out of all the elements in the input tensor. </br >
+The torch.min() function returns the minimum value out of all the elements in the input tensor.  
 ‘dim’ refers to the dimension to reduce, and ‘keepdim’ is fed a boolean which determines whether the output tensor has dim retained or not.
 
 <iframe src="https://jovian.ml/embed?url=https://jovian.ml/anglinabhambra/01-tensor-operations/v/26&cellId=35" title="Jovian Viewer" height="254" width="800" frameborder="0" scrolling="auto"></iframe>
@@ -97,16 +97,16 @@ In this example, we can see that without including any of the other parameters, 
 
 <iframe src="https://jovian.ml/embed?url=https://jovian.ml/anglinabhambra/01-tensor-operations/v/26&cellId=37" title="Jovian Viewer" height="608" width="800" frameborder="0" scrolling="auto"></iframe>
 
-As explained in the PyTorch documentation, if keepdim=True, the output tensor will be of the same size as input except in the dimension dim where they are of size 1. Otherwise, dim is squeezed (see above) resulting in the output tensor having 1 fewer dimension than the input. </br >
-This example shows that the output is a ___namedtuple___ __(values, indices)__. </br >
-__values__: the minimum value of each row of the input tensor in the given dimension dim. </br >
+As explained in the PyTorch documentation, if keepdim=True, the output tensor will be of the same size as input except in the dimension dim where they are of size 1. Otherwise, dim is squeezed (see above) resulting in the output tensor having 1 fewer dimension than the input.  
+This example shows that the output is a ___namedtuple___ __(values, indices)__.  
+__values__: the minimum value of each row of the input tensor in the given dimension dim.  
 __indices__: the index location of each minimum value found (argmin).
-</br >
-</br >
-</br >
+
+
+
 # Final Remarks
 
-It’s worth mentioning here that we were also asked to explore ways in which these functions wouldn’t work, which is a great learning technique. I have done this in my notebook (linked in the intro and [here](https://jovian.ml/anglinabhambra/01-tensor-operations)). </br >
+It’s worth mentioning here that we were also asked to explore ways in which these functions wouldn’t work, which is a great learning technique. I have done this in my notebook (linked in the intro and [here](https://jovian.ml/anglinabhambra/01-tensor-operations)).  
 One thing that could improve this post would be to include when these functions would be most useful.
 
 A big Thank You to Aakash and the Jovian.ml team. I would highly recommend following along if you can. To do so, use the Jovian.ml link or simply watch the first video linked [here](https://www.youtube.com/watch?v=vo_fUOk-IKk).
