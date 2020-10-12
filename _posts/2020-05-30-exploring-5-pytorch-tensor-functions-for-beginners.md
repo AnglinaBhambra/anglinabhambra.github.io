@@ -11,7 +11,7 @@ categories:
 
 INSERT IMAGE HERE
 
-## Introduction
+# Introduction
 
 ### Overview of PyTorch
 
@@ -27,7 +27,7 @@ To learn more about PyTorch tensors, I’ve included links below to the document
 
 ADD PAGE SEPARATOR
 
-## PyTorch Tensor Functions
+# PyTorch Tensor Functions
 If you’re also using PyTorch, or thinking about using it, I hope that this post encourages you to read through the documentation (linked above).
 
 ### torch.square()
@@ -37,5 +37,60 @@ If you’re also using PyTorch, or thinking about using it, I hope that this pos
 The torch.square() function returns a tensor with the square of every element in the input tensor.
 
 <iframe src="https://jovian.ml/embed?url=https://jovian.ml/anglinabhambra/01-tensor-operations/v/26&cellId=3" title="Jovian Viewer" height="179" width="800" frameborder="0" scrolling="auto"></iframe>
+
+Here we have created a tensor, x, and squared every element in x.
+
+### torch.squeeze()
+
+`torch.sqeeze`(input, dim=None) → Tensor
+
+The torch.squeeze() function returns a tensor with all the dimensions of input of size 1 removed, where dim is dimension.
+
+<iframe src="https://jovian.ml/embed?url=https://jovian.ml/anglinabhambra/01-tensor-operations/v/26&cellId=11" title="Jovian Viewer" height="800" width="800" frameborder="0" scrolling="auto"></iframe>
+
+Here we have created a tensor, x, with dimensions (4 x 3 x 1 x 4 x 1) filled with random elements. </br >
+We can see that the torch.squeeze() function has removed all dimensions that have a size of 1, as y.size() shows that tensor y has dimensions (4 x 3 x 4).
+
+<iframe src="https://jovian.ml/embed?url=https://jovian.ml/anglinabhambra/01-tensor-operations/v/26&cellId=13" title="Jovian Viewer" height="410" width="800" frameborder="0" scrolling="auto"></iframe>
+
+In the previous example, the torch.squeeze() function’s dim value is set to None (dim=None) as this is the default. This meant that all dimensions of size 1 was removed. </br >
+In this example, y.size() is the same as x.size(), as we set dim to 0. The ‘0’ (in dim=0) is referring to the ‘3’ (in x.size() # torch.Size(3, 1, 2)). As this is a 3, and not a 1, the tensor remains the same. However is we set dim=1, then y.size() would be torch.Size(3, 2).
+
+### torch.round_()
+
+`torch.round_`(input) → Tensor
+
+The torch.round_() function returns the same tensor with each of the elements of the input rounded to the closest integer, as the underscore denotes __in place__. </br >
+The torch.round() function would otherwise return a new tensor with each of the elements of the input rounded to the closest integer.
+
+<iframe src="https://jovian.ml/embed?url=https://jovian.ml/anglinabhambra/01-tensor-operations/v/26&cellId=19" title="Jovian Viewer" height="300" width="800" frameborder="0" scrolling="auto"></iframe>
+
+In this example we can see that the output is the same tensor, where all of the elements in the tensor have been rounded to the closest integer.
+
+<iframe src="https://jovian.ml/embed?url=https://jovian.ml/anglinabhambra/01-tensor-operations/v/26&cellId=21" title="Jovian Viewer" height="255" width="800" frameborder="0" scrolling="auto"></iframe>
+
+Here we have created a tensor, x, to have 4 floating numbers. PyTorch knows that if one of the values is a float, then the rest of the elements will also be floating numbers. </br >
+We can see that the elements have been rounded to the closest integer, and that the data type of all of the elements are floats.
+
+### torch.neg()
+
+`torch.neg`(input) → Tensor
+
+The torch.neg() function returns a new tensor with the negative of the elements of the input.
+
+<iframe src="https://jovian.ml/embed?url=https://jovian.ml/anglinabhambra/01-tensor-operations/v/26&cellId=27" title="Jovian Viewer" height="230" width="800" frameborder="0" scrolling="auto"></iframe>
+
+Here we can see that the elements in the new tensor, y, are the same as -1 multiplied by the elements in the input tensor, x.
+
+### torch.min()
+
+`torch.min`(input, dim, keepdim=False) → Tensor
+
+The torch.min() function returns the minimum value out of all the elements in the input tensor. </br >
+‘dim’ refers to the dimension to reduce, and ‘keepdim’ is fed a boolean which determines whether the output tensor has dim retained or not.
+
+<iframe src="https://jovian.ml/embed?url=https://jovian.ml/anglinabhambra/01-tensor-operations/v/26&cellId=35" title="Jovian Viewer" height="254" width="800" frameborder="0" scrolling="auto"></iframe>
+
+
 
 
