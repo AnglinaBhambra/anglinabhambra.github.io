@@ -17,6 +17,7 @@ I plan to use my blog to organise interesting papers, projects, and sharing what
     - Some great courses include 0toGANS and fastai
     - Reading about the environment
 - Fitness & Food
+- Painting (see below)
 
 #### Random Fact about me
 My twin and I filmed for an IPhone6s advert in 2016 that aired in Saudi Arabia for 1 year. (linked below)
@@ -25,15 +26,15 @@ My twin and I filmed for an IPhone6s advert in 2016 that aired in Saudi Arabia f
 
 #### Photos taken from my travels
 
-##### Norway - Trolltunga
+__Norway - Trolltunga__
 
 ![Bow and Arrow on Trolltunga](/images/Trolltunga.PNG)
 
-##### Brazil - Iguazu Falls
+__Brazil - Iguazu Falls__
 
 ![Iguazu Falls](/images/Iguazu_falls.jpg)
 
-##### Peru - Machu Picchu - Rainbow Mountain
+__Peru - Machu Picchu - Rainbow Mountain__
 
 ![Machu Picchu](/images/Machu_picchu.jpg)
 
@@ -41,7 +42,7 @@ My twin and I filmed for an IPhone6s advert in 2016 that aired in Saudi Arabia f
 
 ![Rainbow Mountain](/images/Rainbow_mountain.jpg)
 
-##### China
+__China - ZhangJiaJie__
 
 ![China 1](/images/Zhangjiajie1.jpg)
 
@@ -50,3 +51,7 @@ My twin and I filmed for an IPhone6s advert in 2016 that aired in Saudi Arabia f
 ![China 3](/images/Zhangjiajie3.jpg)
 
 ![China 4](/images/Zhangjiajie4.jpg)
+
+#### Painting
+
+![Anglina_lion_painting](/images/Lion_painting.jpeg)
