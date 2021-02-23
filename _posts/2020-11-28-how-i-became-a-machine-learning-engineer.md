@@ -17,3 +17,9 @@ After quitting, I did some solo-travelling, started a few miscellaneous courses 
 ![Porto Sunset](/images/porto_sunset.jpeg)
 *Watching a beautiful sunset, couchsurfing in Porto, Portugal.*
 
+I was eager to get my foot in the door, but at the same time I came to a realisation. I need to work on projects. If there is one piece of advice you take away from reading this article, it is that **your experience and the projects you work on can provide you with a great grounding point to take off from.**
+
+This was the first year I participated in [Hacktoberfest](https://hacktoberfest.digitalocean.com/), but there were only 2 events left to join when I signed up. One where I learnt a whole lot about Git, and another where I met 2 awesome guys who showed me how to start my own project, like a to-do list app. I had also kept in touch with a contact (we’ll call him Karl) that I had reached out to during my time in Sales, and Karl would periodically tell me about events and introduce me to his contacts.
+
+My project work prior to this point was very limited. I had a large tech network on LinkedIn due to my time working in technical sales, so I made a post about getting started with project advice.
+
