@@ -27,3 +27,13 @@ My project work prior to this point was very limited. I had a large tech network
 
 In the space of 1 week thereafter, here is what happened:
 
+* Karl introduced me to another girl, but this time she actually referred me to her company for a Machine Learning Internship, which I actually got to interview for.
+* I was offered a role as a Data Analyst by someone whom I had worked with before.
+* A [conference](https://www.emexlondon.com/about/) that Karl recommended I attend, led me to setting up 5 interviews for potential data in sustainability roles.
+* At least 5 people from my network messaged me saying that they would be happy to refer me to their company for a data role.
+
+----------------------------------------------------------------------------
+
+It all happened at once, and as someone who was changing careers, I thought it was best to start with the internship. It was research based, would take me out of my comfort zone and seemed like a perfect amount of time to let me figure out whether or not I would like to pursue a career in Data Science.
+
+In my next post, I discuss my first week and some of the challenges I faced during the rest of my internship.
