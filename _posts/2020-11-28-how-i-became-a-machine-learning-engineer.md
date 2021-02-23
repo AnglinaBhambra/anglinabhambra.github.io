@@ -23,3 +23,7 @@ This was the first year I participated in [Hacktoberfest](https://hacktoberfest.
 
 My project work prior to this point was very limited. I had a large tech network on LinkedIn due to my time working in technical sales, so I made a post about getting started with project advice.
 
+![LinkedIn Post](intern_linkedin_post.PNG)
+
+In the space of 1 week thereafter, here is what happened:
+
