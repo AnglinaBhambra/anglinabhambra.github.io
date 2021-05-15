@@ -7,7 +7,7 @@ excerpt: A round-up of the projects I was involved in, free valuable resources I
 ---
 
 ![Perspective](/images/anika-huizinga-unsplash.jpg)
-Photo by [**Anika Huizinga on Unsplash**](https://unsplash.com/@clemensvanlay)
+Photo by [**Anika Huizinga on Unsplash**](https://unsplash.com/@iam_anih)
 
 In my previous posts, I spoke about:  
 ⇒ [Part 0](https://anglinabhambra.github.io/how-i-became-a-machine-learning-engineer/) - My experience prior to my internship.  
@@ -64,4 +64,23 @@ My favourite section! When figuring out your learning path, it is very easy to g
 
 **TWITCH**. I didn't expect that I would use Twitch, especially when I was already comfortable (and probably a bit overloaded) with the content diet that I had curated. That being said, when you find a channel that produces quality content and easy-to-follow tutorials it's always good to make a note of them, so I can recommend → [*Cheuk's twitch stream*](https://www.twitch.tv/cheukting_ho). My favourites are the *Python Zero to Hero* and *The Legend of Data* series.
 
+**MEETUPS**. These are great for keeping current and meeting people with similar interests to you. You might also get an opportunity to give a talk too. The meetups that I choose to join are typically Python or Data Science focussed, and have a mix of talks and tutorials. Some great places to find meetups and events are [meetup.com](https://www.meetup.com/) and [eventbrite.co.uk](https://www.eventbrite.co.uk/).
+
+
+<img align="left" width="500" height="200" src="/images/tim-mossholder-unsplash.jpg">
+ Needless to say, it is important to learn every day. When everyone was sent home at the start of the pandemic, I started the <b>#100daysofcode</b> <a href="https://twitter.com/_AnglinaB/status/1242181828120907784">twitter challenge</a>. This was super helpful for me as it provided me with accountability. Announcing what I was learning on social media forced me to structure my learning and pushed me to finish things that I started.  
+ 
+Photo by [**Tim Mossholder on Unsplash**](https://unsplash.com/@timmossholder)
+
+----------------------------------------------------------------------------
+
+## What I'm up to now 👩🏽‍⚕️
+Completing this internship has opened so many doors for me. I'm now working as a **Data Analyst** at [Railsbank](https://www.railsbank.com/) and will be starting a **Data Science MSc part-time** this September. I also started **collaborating on a project** with an awesome person who I met through [Twitter](https://twitter.com/aberasategi) (I'll save talking about this for another post). As my manager had mentioned a few times to **contribute to open-source projects**, I found through the [PyLadies Meetup Group](https://www.meetup.com/PyLadiesLondon/) the perfect opportunity to do this and have been able to contribute to [Pandas](https://pandas.pydata.org/docs/).
+
+## Conclusion
+I want to thank [GMV NSL](https://gmvnsl.com/) for having welcomed me. My internship was one of the steepest learning experiences that I've had the pleasure of encountering. Quite cheesy, but this journey has taught me that anything is possible. I went from minimal python experience to doing Machine Learning and software engineering, using geospatial data and point cloud data.
+
+I hope this series of posts encourage you to find a learning path that best suits you, where some of the resources I recommended will be of use. Remember that there are so many resources out there and they all won't resonate with you, so don't be discouraged and keep trying. If you're able to, make a small amount of time to learn each day.
+
+Thank you for reading.
 
