@@ -67,7 +67,7 @@ My favourite section! When figuring out your learning path, it is very easy to g
 **MEETUPS**. These are great for keeping current and meeting people with similar interests to you. You might also get an opportunity to give a talk too. The meetups that I choose to join are typically Python or Data Science focussed, and have a mix of talks and tutorials. Some great places to find meetups and events are [meetup.com](https://www.meetup.com/) and [eventbrite.co.uk](https://www.eventbrite.co.uk/).
 
 
-<img align="left" width="500" height="200" src="/images/tim-mossholder-unsplash.jpg">
+<img align="left" width="300" height="200" src="/images/tim-mossholder-unsplash.jpg">
  Needless to say, it is important to learn every day. When everyone was sent home at the start of the pandemic, I started the <b>#100daysofcode</b> <a href="https://twitter.com/_AnglinaB/status/1242181828120907784">twitter challenge</a>. This was super helpful for me as it provided me with accountability. Announcing what I was learning on social media forced me to structure my learning and pushed me to finish things that I started.  
  
 Photo by [**Tim Mossholder on Unsplash**](https://unsplash.com/@timmossholder)
